@@ -1,6 +1,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
 }
 *,
 *:before,
@@ -40,6 +41,8 @@ html {
 }
 
 .central-area {
+  width: 30rem;
+  height: 20rem;
   display: flex;
   font-size: 2rem;
   gap: 2rem;
@@ -66,4 +69,85 @@ h1 {
   border: none;
   background-color: #eb6434;
   color: white;
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+
+  color: white;
+  text-align: center;
+
+  width: 30rem;
+  height: 70rem;
+
+  gap: 2rem;
+}
+
+.activities-bubble {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 30rem;
+  height: 20rem;
+  border-radius: 5rem;
+
+  margin: 0;
+}
+
+.activities-bubble--playtime {
+  display: flex;
+  flex-direction: column;
+
+  background-image: url(/images/01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.activities-bubble--rest {
+  background-image: url(/images/02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.activities-bubble--walks {
+  background-image: url(/images/03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.activities-bubble h2 {
+  font-size: 1rem;
+  visibility: hidden;
+}
+
+.activities-bubble p {
+  font-size: 2rem;
+  font-style: bold;
+  border-bottom: 2rem;
+  visibility: hidden;
+}
+
+.activities-bubble--playtime:hover p,
+h2 {
+  visibility: visible;
+}
+.activities-bubble--playtime:hover h2 {
+  visibility: visible;
+}
+.activities-bubble--rest:hover p,
+h2 {
+  visibility: visible;
+}
+.activities-bubble--rest:hover h2 {
+  visibility: visible;
+}
+.activities-bubble--walks:hover p,
+h2 {
+  visibility: visible;
+}
+.activities-bubble--walks:hover h2 {
+  visibility: visible;
 }
