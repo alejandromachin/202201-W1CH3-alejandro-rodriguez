@@ -1,6 +1,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
 }
 *,
 *:before,
@@ -101,4 +102,8 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+h2 {
+  font-size: 2rem;
 }
