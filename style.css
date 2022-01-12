@@ -31,3 +31,39 @@ html {
   justify-content: center;
   font-size: 4rem;
 }
+.main {
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.central-area {
+  display: flex;
+  font-size: 2rem;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.central-area p {
+  font-size: 3rem;
+}
+h1 {
+  font-size: 1rem;
+}
+
+.button__view-all {
+  width: 10rem;
+  height: 5rem;
+  font-size: 1.5rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  border: none;
+  background-color: #eb6434;
+  color: white;
+}
