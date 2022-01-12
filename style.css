@@ -31,3 +31,13 @@ html {
   justify-content: center;
   font-size: 4rem;
 }
+.main {
+  font-size: 2rem;
+}
+
+.central-area {
+  font-size: 2rem;
+}
+.button__view-all {
+  font-size: 2rem;
+}
