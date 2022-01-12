@@ -22,17 +22,6 @@ html {
   }
 }
 
-@media (min-width: 800px) {
-  .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    height: 5rem;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
-  }
-}
-
 .menu {
   display: flex;
 }
@@ -186,4 +175,17 @@ h2 {
 }
 .activities-bubble--walks:hover h2 {
   visibility: visible;
+}
+
+.navigator-desktop {
+  visibility: hidden;
+}
+
+@media (min-width: 501px) {
+  .navigator-desktop {
+    visibility: visible;
+  }
+  .navigator {
+    visibility: hidden;
+  }
 }
