@@ -69,7 +69,20 @@ h1 {
   border: none;
   background-color: #eb6434;
   color: white;
+
+  
 }
+.button__view-all:hover {
+  width: 10rem;
+  height: 5rem;
+  font-size: 1.5rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  border: 1px solid #eb6434;
+  background-color: white;
+  color: #eb6434;
+
 
 .activities {
   display: flex;
