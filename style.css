@@ -184,8 +184,20 @@ h2 {
 @media (min-width: 501px) {
   .navigator-desktop {
     visibility: visible;
+    display: flex;
+    justify-content: space-around;
+    width: 100rem;
   }
   .navigator {
-    visibility: hidden;
+    display: none;
   }
+
+  .header {
+    justify-content: space-between;
+  }
+}
+.navigator-desktop a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
 }
