@@ -40,6 +40,8 @@ html {
 }
 
 .central-area {
+  width: 30rem;
+  height: 20rem;
   display: flex;
   font-size: 2rem;
   gap: 2rem;
@@ -47,6 +49,7 @@ html {
   justify-content: center;
   flex-direction: column;
   margin-top: 2rem;
+  border: 1px solid #000;
 }
 
 .central-area p {
@@ -66,4 +69,36 @@ h1 {
   border: none;
   background-color: #eb6434;
   color: white;
+}
+
+.activities {
+  width: 30rem;
+  height: 60rem;
+  border: 1px solid #000;
+}
+
+.activities-bubble {
+  width: 30rem;
+  height: 20rem;
+  border-radius: 5rem;
+  border: 1px solid #000;
+}
+
+.activities-bubble--playtime {
+  background-image: url(/images/01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.activities-bubble--rest {
+  background-image: url(/images/02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.activities-bubble--walks {
+  background-image: url(/images/03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
