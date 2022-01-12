@@ -121,10 +121,34 @@ h1 {
 
 .activities-bubble h2 {
   font-size: 1rem;
+  visibility: hidden;
 }
 
 .activities-bubble p {
   font-size: 2rem;
   font-style: bold;
   border-bottom: 2rem;
+  visibility: hidden;
+}
+
+.activities-bubble--playtime:hover p,
+h2 {
+  visibility: visible;
+}
+.activities-bubble--playtime:hover h2 {
+  visibility: visible;
+}
+.activities-bubble--rest:hover p,
+h2 {
+  visibility: visible;
+}
+.activities-bubble--rest:hover h2 {
+  visibility: visible;
+}
+.activities-bubble--walks:hover p,
+h2 {
+  visibility: visible;
+}
+.activities-bubble--walks:hover h2 {
+  visibility: visible;
 }
