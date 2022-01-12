@@ -50,7 +50,6 @@ html {
   justify-content: center;
   flex-direction: column;
   margin-top: 2rem;
-  border: 1px solid #000;
 }
 
 .central-area p {
@@ -76,13 +75,13 @@ h1 {
   display: flex;
   flex-direction: column;
   align-content: space-between;
-  /* justify-content: space-between; */
+
   color: white;
   text-align: center;
-  /* align-items: flex-end; */
+
   width: 30rem;
   height: 70rem;
-  border: 1px solid #000;
+
   gap: 2rem;
 }
 
@@ -93,7 +92,7 @@ h1 {
   width: 30rem;
   height: 20rem;
   border-radius: 5rem;
-  border: 1px solid #000;
+
   margin: 0;
 }
 
