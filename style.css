@@ -17,8 +17,9 @@ html {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    height: 5rem;
+    height: 8rem;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0rem;
   }
 }
 
@@ -155,9 +156,12 @@ h1 {
   visibility: hidden;
 }
 
-.activities-bubble--playtime:hover p,
-h2 {
+.activities-bubble--playtime:hover p {
   visibility: visible;
+}
+.activities-bubble--playtime:hover .transparency {
+  background-image: none;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .activities-bubble--playtime:hover h2 {
   visibility: visible;
@@ -169,6 +173,10 @@ h2 {
 .activities-bubble--rest:hover h2 {
   visibility: visible;
 }
+.activities-bubble--rest:hover .transparency {
+  background-image: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
 .activities-bubble--walks:hover p,
 h2 {
   visibility: visible;
@@ -176,7 +184,10 @@ h2 {
 .activities-bubble--walks:hover h2 {
   visibility: visible;
 }
-
+.activities-bubble--walks:hover .transparency {
+  background-image: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
 .navigator-desktop {
   visibility: hidden;
 }
