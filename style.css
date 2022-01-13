@@ -195,6 +195,22 @@ h2 {
   .header {
     justify-content: space-between;
   }
+
+  .sub-menu {
+    display: none;
+  }
+
+  .live-demo:hover ul {
+    display: grid;
+    background-color: black;
+  }
+  .activities {
+    display: flex;
+    width: 100rem;
+    height: 50rem;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 .navigator-desktop a {
   text-decoration: none;
